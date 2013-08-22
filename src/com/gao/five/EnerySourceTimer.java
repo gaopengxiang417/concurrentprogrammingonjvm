@@ -8,6 +8,7 @@ import java.util.concurrent.*;
  * Time: 下午9:24
  */
 public class EnerySourceTimer {
+
     private final Integer MAXLEVEL = 100;
     private Integer level = MAXLEVEL;
     private static final ScheduledExecutorService scheduledExecutorService =
